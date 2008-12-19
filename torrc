@@ -1,0 +1,16 @@
+############# Basics ############# 
+ContactInfo acantha@gmail.com
+DataDirectory .
+ORPort 9055
+SocksPort 9070
+ShutdownWaitLength 0
+
+############# Configure this for each router ############# 
+Nickname router
+DirAllowPrivateAddresses 1
+EnforceDistinctSubnets 0
+AssumeReachable 1
+ExitPolicyRejectPrivate 0
+
+############# All Directory Servers ############# 
+DirServer water 160.39.192.204:9035 64D2 12A4 ECC1 FC39 4C82 E50E 6B9E 49E9 7488 5F1C

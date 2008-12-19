@@ -1,0 +1,25 @@
+############# Basics ############# 
+ContactInfo acantha@gmail.com
+DataDirectory .
+ORPort 9051
+DirPort 9033
+ShutdownWaitLength 0
+
+############# Configure this for each router ############# 
+Nickname dirServer1
+address 76.16.65.193
+
+############# All Directory Servers ############# 
+#DirServer dirServer1 76.16.65.193:9033 13EC 1BFB 5D3E 15C6 BAE9 A5BB 7ED4 2A58 3E88 2A88
+#DirServer dirServer2 74.73.135.105:9033 7F73 AE67 91DE 011E DE9D 12E7 8E4C E16A 37C6 46F9
+
+############# Dir Server Settings ############# 
+AuthoritativeDirectory 1
+
+DirAllowPrivateAddresses 1
+EnforceDistinctSubnets 0
+AssumeReachable 1
+VersioningAuthoritativeDirectory 1
+V1AuthoritativeDirectory 1
+RecommendedVersions 0.1.2.16
+ExitPolicyRejectPrivate 0
