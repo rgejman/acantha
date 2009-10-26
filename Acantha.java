@@ -32,8 +32,8 @@ import java.awt.event.*;
 public class Acantha {
 
 	final static String version = "1.0.5";
-	final static String latestVersionURL = "http://www.gejman.com/acantha/latest_version.html";
-	final static String latestVersionMessageURL = "http://www.gejman.com/acantha/latest_version_message.html";
+	final static String latestVersionURL = "http://www.domain.com/acantha/latest_version.html";
+	final static String latestVersionMessageURL = "http://www.domain.com/acantha/latest_version_message.html";
 	final static String programName = "acantha";
 	final static int updateInterval = 60 * 3 * 1000; // 60s * 15m * 1000ms
 
